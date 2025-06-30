@@ -1,6 +1,6 @@
 ---
 - hosts: test
-  become: true
+  become: aqueel
   tasks:
     - name: print OS info 
       ansible.builtin.package:
