@@ -1,6 +1,6 @@
 ---
 - hosts: test
-  remote_user: root
+  remote_user: aqueel
   become: yes
   gather_facts: no
   tasks:
